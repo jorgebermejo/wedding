@@ -3,22 +3,225 @@
 1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
 1 verbose cli   'install',
 1 verbose cli   '--save',
-1 verbose cli   'pg-hstore@2.3.2' ]
+1 verbose cli   'ex//',
+1 verbose cli   'instalar',
+1 verbose cli   'el',
+1 verbose cli   'MW' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.35
-4 error Failed to parse json
-4 error Unexpected token c
-5 error File: /home/ubuntu/workspace/quiz/package.json
-6 error Failed to parse package.json data.
-6 error package.json must be actual JSON, not just JavaScript.
-6 error
-6 error This is not a bug in npm.
-6 error Tell the package author to fix their package.json file. JSON.parse
-7 error System Linux 3.14.13-c9
-8 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "--save" "pg-hstore@2.3.2"
-9 error cwd /home/ubuntu/workspace/quiz
-10 error node -v v0.10.35
-11 error npm -v 1.4.28
-12 error file /home/ubuntu/workspace/quiz/package.json
-13 error code EJSONPARSE
-14 verbose exit [ 1, true ]
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'ex//', null ]
+6 verbose cache add name=undefined spec="ex//" args=["ex//",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'ex//',
+7 verbose parsed url   path: 'ex//',
+7 verbose parsed url   href: 'ex//' }
+8 verbose cache add [ 'instalar', null ]
+9 verbose cache add name=undefined spec="instalar" args=["instalar",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'instalar',
+10 verbose parsed url   path: 'instalar',
+10 verbose parsed url   href: 'instalar' }
+11 verbose cache add [ 'el', null ]
+12 verbose cache add name=undefined spec="el" args=["el",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'el',
+13 verbose parsed url   path: 'el',
+13 verbose parsed url   href: 'el' }
+14 verbose cache add [ 'MW', null ]
+15 verbose cache add name=undefined spec="MW" args=["MW",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'MW',
+16 verbose parsed url   path: 'MW',
+16 verbose parsed url   href: 'MW' }
+17 silly lockFile aa1683c1-ex ex//
+18 verbose lock ex// /home/ubuntu/.npm/aa1683c1-ex.lock
+19 silly lockFile f930579f-instalar instalar
+20 verbose lock instalar /home/ubuntu/.npm/f930579f-instalar.lock
+21 silly lockFile 4f1ea4f0-el el
+22 verbose lock el /home/ubuntu/.npm/4f1ea4f0-el.lock
+23 silly lockFile 61998b61-MW MW
+24 verbose lock MW /home/ubuntu/.npm/61998b61-MW.lock
+25 silly lockFile aa1683c1-ex ex//
+26 silly lockFile aa1683c1-ex ex//
+27 silly lockFile f930579f-instalar instalar
+28 silly lockFile f930579f-instalar instalar
+29 silly lockFile 4f1ea4f0-el el
+30 silly lockFile 4f1ea4f0-el el
+31 silly lockFile 61998b61-MW MW
+32 silly lockFile 61998b61-MW MW
+33 error addLocal Could not install ex//
+34 verbose addNamed [ 'instalar', '' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile 5b5fd6e9-instalar instalar@
+37 verbose lock instalar@ /home/ubuntu/.npm/5b5fd6e9-instalar.lock
+38 verbose addNamed [ 'el', '' ]
+39 verbose addNamed [ null, '*' ]
+40 silly lockFile b398bd57-el el@
+41 verbose lock el@ /home/ubuntu/.npm/b398bd57-el.lock
+42 verbose addNamed [ 'MW', '' ]
+43 verbose addNamed [ null, '*' ]
+44 silly lockFile ed061768-MW MW@
+45 verbose lock MW@ /home/ubuntu/.npm/ed061768-MW.lock
+46 silly addNameRange { name: 'instalar', range: '*', hasData: false }
+47 silly addNameRange { name: 'el', range: '*', hasData: false }
+48 verbose request where is /instalar
+49 verbose request registry https://registry.npmjs.org/
+50 verbose request id 755ccfd08b95c372
+51 verbose url raw /instalar
+52 verbose url resolving [ 'https://registry.npmjs.org/', './instalar' ]
+53 verbose url resolved https://registry.npmjs.org/instalar
+54 verbose request where is https://registry.npmjs.org/instalar
+55 info trying registry request attempt 1 at 17:37:00
+56 http GET https://registry.npmjs.org/instalar
+57 silly addNameRange { name: 'MW', range: '*', hasData: false }
+58 verbose request where is /el
+59 verbose request registry https://registry.npmjs.org/
+60 verbose url raw /el
+61 verbose url resolving [ 'https://registry.npmjs.org/', './el' ]
+62 verbose url resolved https://registry.npmjs.org/el
+63 verbose request where is https://registry.npmjs.org/el
+64 info trying registry request attempt 1 at 17:37:00
+65 http GET https://registry.npmjs.org/el
+66 verbose request where is /MW
+67 verbose request registry https://registry.npmjs.org/
+68 verbose url raw /MW
+69 verbose url resolving [ 'https://registry.npmjs.org/', './MW' ]
+70 verbose url resolved https://registry.npmjs.org/MW
+71 verbose request where is https://registry.npmjs.org/MW
+72 info trying registry request attempt 1 at 17:37:01
+73 http GET https://registry.npmjs.org/MW
+74 http 404 https://registry.npmjs.org/MW
+75 verbose headers { 'cache-control': 'max-age=0',
+75 verbose headers   'transfer-encoding': 'chunked',
+75 verbose headers   'accept-ranges': 'bytes',
+75 verbose headers   date: 'Thu, 13 Aug 2015 17:37:01 GMT',
+75 verbose headers   via: '1.1 varnish',
+75 verbose headers   age: '0',
+75 verbose headers   connection: 'keep-alive',
+75 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+75 verbose headers   'x-cache': 'MISS',
+75 verbose headers   'x-cache-hits': '0',
+75 verbose headers   'x-timer': 'S1439487421.044945,VS0,VE93' }
+76 silly registry.get cb [ 404,
+76 silly registry.get   { 'cache-control': 'max-age=0',
+76 silly registry.get     'transfer-encoding': 'chunked',
+76 silly registry.get     'accept-ranges': 'bytes',
+76 silly registry.get     date: 'Thu, 13 Aug 2015 17:37:01 GMT',
+76 silly registry.get     via: '1.1 varnish',
+76 silly registry.get     age: '0',
+76 silly registry.get     connection: 'keep-alive',
+76 silly registry.get     'x-served-by': 'cache-lhr6328-LHR',
+76 silly registry.get     'x-cache': 'MISS',
+76 silly registry.get     'x-cache-hits': '0',
+76 silly registry.get     'x-timer': 'S1439487421.044945,VS0,VE93' } ]
+77 silly lockFile ed061768-MW MW@
+78 silly lockFile ed061768-MW MW@
+79 http 404 https://registry.npmjs.org/instalar
+80 verbose headers { 'cache-control': 'max-age=0',
+80 verbose headers   'transfer-encoding': 'chunked',
+80 verbose headers   'accept-ranges': 'bytes',
+80 verbose headers   date: 'Thu, 13 Aug 2015 17:37:01 GMT',
+80 verbose headers   via: '1.1 varnish',
+80 verbose headers   age: '0',
+80 verbose headers   connection: 'keep-alive',
+80 verbose headers   'x-served-by': 'cache-lhr6320-LHR',
+80 verbose headers   'x-cache': 'MISS',
+80 verbose headers   'x-cache-hits': '0',
+80 verbose headers   'x-timer': 'S1439487421.042433,VS0,VE100' }
+81 silly registry.get cb [ 404,
+81 silly registry.get   { 'cache-control': 'max-age=0',
+81 silly registry.get     'transfer-encoding': 'chunked',
+81 silly registry.get     'accept-ranges': 'bytes',
+81 silly registry.get     date: 'Thu, 13 Aug 2015 17:37:01 GMT',
+81 silly registry.get     via: '1.1 varnish',
+81 silly registry.get     age: '0',
+81 silly registry.get     connection: 'keep-alive',
+81 silly registry.get     'x-served-by': 'cache-lhr6320-LHR',
+81 silly registry.get     'x-cache': 'MISS',
+81 silly registry.get     'x-cache-hits': '0',
+81 silly registry.get     'x-timer': 'S1439487421.042433,VS0,VE100' } ]
+82 silly lockFile 5b5fd6e9-instalar instalar@
+83 silly lockFile 5b5fd6e9-instalar instalar@
+84 http 200 https://registry.npmjs.org/el
+85 silly registry.get cb [ 200,
+85 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+85 silly registry.get     etag: '"5386VX6NSPOAE1Y6HI02J7N4Z"',
+85 silly registry.get     'content-type': 'application/json',
+85 silly registry.get     'cache-control': 'max-age=60',
+85 silly registry.get     'content-length': '6789',
+85 silly registry.get     'accept-ranges': 'bytes',
+85 silly registry.get     date: 'Thu, 13 Aug 2015 17:37:01 GMT',
+85 silly registry.get     via: '1.1 varnish',
+85 silly registry.get     age: '0',
+85 silly registry.get     connection: 'keep-alive',
+85 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+85 silly registry.get     'x-cache': 'MISS',
+85 silly registry.get     'x-cache-hits': '0',
+85 silly registry.get     'x-timer': 'S1439487421.038412,VS0,VE359',
+85 silly registry.get     vary: 'Accept' } ]
+86 silly addNameRange number 2 { name: 'el', range: '*', hasData: true }
+87 silly addNameRange versions [ 'el', [ '0.2.0', '0.2.1', '0.2.2', '0.2.3' ] ]
+88 verbose addNamed [ 'el', '0.2.3' ]
+89 verbose addNamed [ '0.2.3', '0.2.3' ]
+90 silly lockFile 5faf2eb1-el-0-2-3 el@0.2.3
+91 verbose lock el@0.2.3 /home/ubuntu/.npm/5faf2eb1-el-0-2-3.lock
+92 silly lockFile 6f767fcb-gistry-npmjs-org-el-el-0-2-3-tgz https://registry.npmjs.org/el/-/el-0.2.3.tgz
+93 verbose lock https://registry.npmjs.org/el/-/el-0.2.3.tgz /home/ubuntu/.npm/6f767fcb-gistry-npmjs-org-el-el-0-2-3-tgz.lock
+94 verbose addRemoteTarball [ 'https://registry.npmjs.org/el/-/el-0.2.3.tgz',
+94 verbose addRemoteTarball   '4f360ec416e6ccb2eebe025bff0b000c0800db3f' ]
+95 info retry fetch attempt 1 at 17:37:01
+96 verbose fetch to= /tmp/npm-2205-qGdNjCWL/registry.npmjs.org/el/-/el-0.2.3.tgz
+97 http GET https://registry.npmjs.org/el/-/el-0.2.3.tgz
+98 http 200 https://registry.npmjs.org/el/-/el-0.2.3.tgz
+99 silly lockFile 6f767fcb-gistry-npmjs-org-el-el-0-2-3-tgz https://registry.npmjs.org/el/-/el-0.2.3.tgz
+100 silly lockFile 6f767fcb-gistry-npmjs-org-el-el-0-2-3-tgz https://registry.npmjs.org/el/-/el-0.2.3.tgz
+101 silly lockFile 5faf2eb1-el-0-2-3 el@0.2.3
+102 silly lockFile 5faf2eb1-el-0-2-3 el@0.2.3
+103 silly lockFile b398bd57-el el@
+104 silly lockFile b398bd57-el el@
+105 error Error: ENOENT, stat 'ex//'
+106 error If you need help, you may report this *entire* log,
+106 error including the npm and node versions, at:
+106 error     <http://github.com/npm/npm/issues>
+107 error System Linux 3.14.13-c9
+108 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "--save" "ex//" "instalar" "el" "MW"
+109 error cwd /home/ubuntu/workspace/quiz
+110 error node -v v0.10.35
+111 error npm -v 1.4.28
+112 error path ex//
+113 error code ENOENT
+114 error errno 34
+115 verbose exit [ 34, true ]
