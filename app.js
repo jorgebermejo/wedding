@@ -37,12 +37,37 @@ app.use(function(req, res, next) {
   // guardar path en session.redir para despues de login
   if (!req.path.match(/\/login|\/logout/)) {
     req.session.redir = req.path;
+   // console.log("Entra1");
   }
 
   // Hacer visible req.session en las vistas
   res.locals.session = req.session;
+  
+  
+  if (req.session.user){
+       req.session.time=new Date().getTime();
+       if ((req.session.time - req.session.ultimaTransaccion) > (2 * 60 * 1000) ){
+           
+           delete req.session.user;
+           req.session.ultimaTransaccion = req.session.time;
+           res.render('sessions/new', {errors: [{"message": "Su sesión ha caducado"}]});
+           
+           //errornew Error('Password erróneo.'))
+           
+       }else{
+           
+           req.session.ultimaTransaccion = req.session.time;
+           
+       }
+  }
+  
   next();
 });
+
+//app.use(function(req, res, next) {
+//console.log("Entra2");
+  
+//});
 
 app.use('/', routes);
 //app.use('/users', users);
