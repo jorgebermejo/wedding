@@ -1,0 +1,13 @@
+<p><strong>Estadisticas</strong></p>
+
+
+<p></p>
+
+
+<p>Preguntas: <%= statistics.numPreguntas %></p>
+<p>Comentarios totales: <%= statistics.comentariosTotales %></p>
+<p>Media de comentarios por pregunta: <%= statistics.numPreguntas?(statistics.comentariosTotales / statistics.numPreguntas).toFixed(2):0%></p>
+<p>Preguntas sin comentarios: <%= statistics.preguntaSinComentario %></p>
+<p>Preguntas con comentarios: <%= statistics.preguntaConComentario %></p>
+
+ 
