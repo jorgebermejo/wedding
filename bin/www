@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var debug = require('debug')('quiz');
+var debug = require('debug')('wedding');
 var app = require('../app');
 
 var fs = require("fs");
